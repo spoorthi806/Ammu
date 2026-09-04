@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* HOME PAGE */
+
+.home-page {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background: linear-gradient(
+        135deg,
+        #ffd6e7,
+        #e5d4ff
+    );
+
+    padding: 20px;
+}
+
+.home-content {
+    width: 100%;
+    max-width: 650px;
+
+    background: white;
+
+    padding: 55px 30px;
+
+    border-radius: 30px;
+
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.home-content h1 {
+    font-size: 42px;
+    color: #ff4f91;
+    margin-bottom: 20px;
+}
+
+.home-content p {
+    font-size: 19px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+
+/* BIRTHDAY PAGE */
+
+.birthday-page {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background: linear-gradient(
+        135deg,
+        #ffd6e7,
+        #ffe9c9
+    );
+
+    padding: 30px 20px;
+}
+
+.birthday-content {
+    width: 100%;
+    max-width: 700px;
+
+    background: white;
+
+    padding: 45px 30px;
+
+    border-radius: 30px;
+
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.birthday-content h1 {
+    font-size: 48px;
+    color: #ff4f91;
+    margin-bottom: 15px;
+}
+
+.special-text {
+    font-size: 21px;
+    margin-bottom: 30px;
+}
+
+.photo-container {
+    margin-bottom: 30px;
+}
+
+.photo-container img {
+    width: 100%;
+    max-width: 400px;
+
+    height: auto;
+
+    display: block;
+    margin: auto;
+
+    border-radius: 25px;
+}
+
+.birthday-content p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+
+/* MESSAGE PAGE */
+
+.message-page {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background: linear-gradient(
+        135deg,
+        #ffe0ec,
+        #e0d0ff
+    );
+
+    padding: 30px 20px;
+}
+
+.message-content {
+    width: 100%;
+    max-width: 650px;
+
+    background: white;
+
+    padding: 50px 30px;
+
+    border-radius: 30px;
+
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.message-content h1 {
+    font-size: 40px;
+    color: #ff4f91;
+    margin-bottom: 30px;
+}
+
+.message-content p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 22px;
+}
+
+.last-message {
+    font-size: 22px !important;
+    font-weight: bold;
+    color: #ff4f91;
+}
+
+
+/* BUTTONS */
+
+.main-button,
+.back-button {
+    display: inline-block;
+
+    padding: 14px 28px;
+
+    background: #ff4f91;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 30px;
+
+    font-size: 17px;
+
+    transition: 0.3s;
+}
+
+.main-button:hover,
+.back-button:hover {
+    transform: scale(1.05);
+}
+
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+    .home-content {
+        padding: 40px 20px;
+    }
+
+    .home-content h1 {
+        font-size: 32px;
+    }
+
+    .home-content p {
+        font-size: 17px;
+    }
+
+    .birthday-content,
+    .message-content {
+        padding: 35px 20px;
+    }
+
+    .birthday-content h1 {
+        font-size: 36px;
+    }
+
+    .message-content h1 {
+        font-size: 32px;
+    }
+
+    .birthday-content p,
+    .message-content p {
+        font-size: 16px;
+    }
+
+}
